@@ -22,9 +22,8 @@ function rollDice (message) {
         rollString += (getRandomInt(parseInt(min), dice[1]) + parseInt(mod)) + " ";
     }
     rollString += flags != null ? "(" : ""
-    rollString += mod ? "+" + mod + " Roll Modifier" : "";
-    rollString += flags != null ? " | " : ""
-    rollString += min != 1 ? "+" + min + " Lower Limit" : "";
+    rollString += mod ? "+" + mod + " Roll Modifier " : "";
+    rollString += min != 1 ? "+" + min + " Lower Limit " : "";
     rollString += flags != null ? ")" : ""
     return rollString;
 }
