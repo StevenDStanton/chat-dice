@@ -1,6 +1,6 @@
 {
   "name": "chat-dice",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Dice rolling for chat rooms",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/StevenDStanton/discordBot.git"
+    "url": "git+ssh://git@github.com/StevenDStanton/chat-dice.git"
   },
   "keywords": [
     "dice",
@@ -17,9 +17,9 @@
   "author": "Steven D Stanton",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/StevenDStanton/discordBot/issues"
+    "url": "https://github.com/StevenDStanton/chat-dice/issues"
   },
-  "homepage": "https://github.com/StevenDStanton/discordBot#readme",
+  "homepage": "https://github.com/StevenDStanton/chat-dice#readme",
   "dependencies": {},
   "devDependencies": {}
 }
